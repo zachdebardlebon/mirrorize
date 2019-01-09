@@ -20,4 +20,4 @@ for i in range(5):
 		new.paste(image, (offset, offset))
 		image = image.resize((new_side_length//2, new_side_length//2))
 
-new.save(filename.split('.')[0] + "_innerspeaker.png")
+new.save(filename.split('.')[0] + "_mirrored.png")
